@@ -1,0 +1,32 @@
+{
+  "name": "baby-tracker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "generate:icons": "python3 scripts/generate-icons.py"
+  },
+  "dependencies": {
+    "@fontsource/geist": "^5.0.13",
+    "@fontsource/geist-mono": "^5.0.13",
+    "@phosphor-icons/react": "^2.1.10",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "localforage": "^1.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vite-pwa/assets-generator": "^0.2.6",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}
